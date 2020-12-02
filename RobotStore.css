@@ -1,0 +1,193 @@
+body {
+    font-family: serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgba(226, 222, 222, 0.945);
+}
+
+/*Header and logo*/
+header {
+    padding: 3px;
+    margin: 1px;
+    background: silver url(Assets/BackgroundCircuit.jpg) 50%;
+    height: 210px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+#logo {
+    margin: 8px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+/*Social media and search bar within header*/
+#mediaBar {
+    background-color: white;
+    height: 30px;
+    width: 320px;
+    margin: 4px 10px 0px 0px;
+    position: relative;
+}
+header ul {
+    margin: 0px;
+    padding: 1px;
+    list-style: none;
+}
+header li {
+    display: flex;
+    padding: 2px;
+    margin: 2px;
+    float: left;
+}
+#search {
+    background-color: rgb(233, 217, 217);
+    color: rgb(51, 48, 48);
+    margin: 0px 0px 0px 20px;
+    padding: 1px;
+}
+/*Basket, Log In, Contact Bar within header*/
+#infoBar {
+    background-color: white;
+    height: 22px;
+    width: 320px;
+    margin: 0px;
+    position: absolute;
+    top: 185px;
+    font-size: 1em;
+    color: green;
+}
+#infoBar li {
+    padding: 0px;
+    margin: 0px 6px 0px 6px;
+    color: green;
+}
+#infoBar ul {
+    margin: 0;
+    padding: 2px;
+    list-style: none;
+}
+/*Main body of store*/
+#container {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+/*Heading for Main Body of Store*/
+#TopOfMain {
+    display: flex;
+    position: relative;
+    height: 85px;
+    padding: 10px;
+    padding-left: 15%;
+    background-color: rgba(226, 222, 222, 0.945);
+}
+#TopOfMain h2 {
+    font-size: 2.5em;
+    font-style: italic;
+    text-align: center;
+    padding-left: 20px;
+}
+/*Sidebar with robot information*/
+#sidebar {
+    width: 20%;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: rgba(226, 222, 222, 0.945);
+    margin: 0px 5px 1px 10px;
+    border-right: #1004c0 solid 5px;
+}
+#sidebar h4 {
+    font-size: 1.25em;
+}
+#sidebar a {
+    color: blue;
+}
+/*Main store */
+#main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 80%;
+    float: right;
+    padding: 5px;
+}
+.models {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+
+}
+.models img {
+    position: relative;
+    width: 40%;
+    float: right;
+    top: 10px;
+    margin: 10px;
+}
+.models p {
+    font-size:  1.1em;
+    text-align: jusified;
+    padding: 10px;
+}
+.models h3 {
+    font-size:  2em;
+    text-align: center;
+}
+.models a {
+    color: blue;
+}
+.models h4 {
+    font-size:  1.5em;
+    text-align: center;
+}
+#menuFooter {
+    background: silver url(Assets/BackgroundCircuit.jpg) 1%;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row-reverse;
+    color: silver;
+    padding: 10px;
+}
+#menuFooter li {
+    padding: 20px;
+    list-style: none;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+/*Hover reactions*/
+footer a:hover {
+    color: rgb(243, 239, 12);
+    text-decoration: underline;
+}
+#container a:hover {
+    color: rgb(201, 8, 8);
+    text-decoration: underline;
+}
+header a:hover {
+    color: rgb(20, 230, 72);
+    text-decoration: underline;
+}
+
+
+
